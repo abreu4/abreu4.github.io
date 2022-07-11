@@ -1,0 +1,4 @@
+baseURL = "https://abreu4.github.io"
+languageCode = "en-us"
+title = "Tiago Abreu"
+theme = "ananke"
