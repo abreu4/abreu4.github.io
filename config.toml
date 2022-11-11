@@ -1,4 +1,60 @@
 baseURL = "https://abreu4.github.io"
-languageCode = "en-us"
-title = "Tiago Abreu"
-theme = "ananke"
+title = "Olá"
+featured_image = "public/images/gohugo-default-sample-hero-image.jpg"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+  author = "Tiago Abreu"
+  info = "Deep learning engineer and economist"
+  description = "Nothing quite like the present"
+  keywords = "blog,developer,personal,software,engineering,deep,machine,learning,music,economics"
+  avatarurl = "public/images/crypto-laser-eyes.png"
+  #gravatar = "me@tiago-abr.eu"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2022
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/abreu4"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 3
+  url = "https://www.linkedin.com/in/t-abreu/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"

@@ -5,7 +5,11 @@ draft: false
 ---
 
 Howdy,
-<br>My name is Tiago, I'm a software engineer focusing on deep learning. </br>
+
+My name is Tiago
+
+I'm a software engineer focusing on deep learning.
+
 These days I work mostly with Python, C++, Docker, Kubernetes, Sagemaker and Pytorch.
 I like music and fighting sports.
 
