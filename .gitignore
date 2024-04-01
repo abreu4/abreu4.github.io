@@ -5,6 +5,4 @@ hugo.exe
 hugo.linux
 hugo.darwin
 
-themes/
-
 .DS_Store
