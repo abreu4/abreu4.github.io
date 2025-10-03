@@ -3,7 +3,8 @@ title = "Welcome"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
-paginate = 6
+[pagination]
+  pagerSize = 10
 enableEmoji = true
 # Enable Disqus comments
 # disqusShortname = "yourdiscussshortname"
@@ -24,7 +25,7 @@ author = "Tiago Abreu"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Tiago Abreu's personal website"
 keywords = "blog,developer,personal"
-info = ["3D perception and deep learning engineer", "Economics student"]
+info = ["Machine Learning Engineer", "Economist"]
 avatarURL = "images/avatar.png"
 backgroundImage = "images/background.jpg"
 #gravatar = "me@tiago-abr.eu"
